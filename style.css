@@ -1,31 +1,32 @@
-.main-navbar {
+ul {
 	position: relative;
 	background-color: blue;
 	overflow: hidden;
 	float: left;
-	width: 100%;
 	list-style-type: none;
-	display: block;
-	text-decoration: underline overline;
-	padding: 10px 20px;
+	width: 100%;
 }
 
-.navbar-container {
-	position: relative;
-	display:block;
-	margin: 0;
-	padding: 0;
-	background-color: #000;
+li#onpage {
+	text-align: center;
+	position: relative; 
+	padding: 10px 20px;
+	float: left;
+	left: 50%;
+	display: block;
 	text-decoration: none;
 	color: #fff;
-	right: 50%;
-	float: left;
+	background-color: #000;
+	text-decoration: underline overline;
 }
 
-.onpage {
-	position: relative;
-	float: left;	
-	left: 50%;
+li a {
+	position:relative;
+	padding: 0;
+	margin: 0;
+	float: left;
+	right: 50%;
+	display: block;
 }
 
 .sidebar {
@@ -39,7 +40,7 @@
 	display: block;
 }
 
-.sidebar-container {
+sidebar-container {
 	text-align: center;
 	background-color: #000;
 	text-decoration: none;
